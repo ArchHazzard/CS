@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 float km,m,feet,inch,cm;
-printf("enter the distance between two cities(in km):");scanf("%f",&km);
+printf("enter the distance b/w 2 cities(in km):");scanf("%f",&km);
 m=km*1000;
 feet=km*3280.84;
 inch=km*39370.1;
