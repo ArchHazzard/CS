@@ -1,3 +1,5 @@
+//Write a C program to find the biggest number from given three numbers
+
 #include<stdio.h>
 int main(){
 float a,b,c;
@@ -9,8 +11,6 @@ if (a>b&&a>c)
 printf("biggest number is %f\n",a);
 else if (b>a&&b>c)
 printf("biggest number is %f\n",b);
-else if (c>a&&c>a)
-printf("biggest number is %f\n",c);
 else
-printf("two or more numbers are equal and largest.\n");
+printf("biggest number is %f\n",c);
 return 0;}

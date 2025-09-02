@@ -1,9 +1,11 @@
+//Write a C program to interchange two numbers
+
 #include<stdio.h>
 int main(){
-int a,b,temp;
-printf("enter a:");scanf("%d",&a);
-printf("enter b:");scanf("%d",&b);
+float a,b,temp;
+printf("enter a:");scanf("%f",&a);
+printf("enter b:");scanf("%f",&b);
 temp=a;a=b;b=temp;
-printf("after swapping,a=%d\n",a);
-printf("after swapping,b=%d\n",b);
+printf("after swapping,a=%f\n",a);
+printf("after swapping,b=%f\n",b);
 return 0;}

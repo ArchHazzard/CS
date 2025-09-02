@@ -1,3 +1,5 @@
+//Write a C program to enter a distance into km and convert it into meter, feet, inches and cm
+
 #include<stdio.h>
 int main(){
 float km,m,feet,inch,cm;

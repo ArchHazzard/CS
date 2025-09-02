@@ -1,3 +1,5 @@
+//Write a C program to find out the largest value from given three numbers using conditional operator 
+
 #include<stdio.h>
 int main(){
 float a,b,c,big;

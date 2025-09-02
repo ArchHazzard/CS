@@ -1,3 +1,5 @@
+//Write a C program to find that the entered number is negative, positive, or zero 
+
 #include<stdio.h>
 int main(){
 float num;
